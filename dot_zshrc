@@ -1,0 +1,5 @@
+export WORKON_HOME=~/.virtualenvs
+alias workoff='deactivate'
+. $(asdf where python)/bin/virtualenvwrapper.sh
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+PS1="irma@Fero>>"
